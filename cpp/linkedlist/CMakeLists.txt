@@ -1,0 +1,2 @@
+add_subdirectory(dlinkedlist)
+add_subdirectory(slinkedlist)

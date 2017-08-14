@@ -1,0 +1,4 @@
+enable_testing()
+add_executable(test_slinkedlist test_slinkedlist.cpp)
+target_link_libraries(test_slinkedlist gtest_main)
+add_test(NAME slinkedlist COMMAND test_slinkedlist)
